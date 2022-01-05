@@ -1,6 +1,7 @@
 *{
      margin:0;   
 }
+
 .top {
     text-align: center;
     background-color : #f0ffff;
@@ -8,8 +9,22 @@
 }
 .menu {
     display:grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns:  1fr 5fr;
 }
 .leftmenu{
     border-right:5px black solid;
+}
+.content_center {
+    display:grid;
+    grid-template-areas:
+        "1 2"
+        "3 4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.photo{
+    grid-area:1;
+}
+.inform{
+    grid-area:3;
 }
