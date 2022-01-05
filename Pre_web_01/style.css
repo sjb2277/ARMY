@@ -1,0 +1,15 @@
+*{
+     margin:0;   
+}
+.top {
+    text-align: center;
+    background-color : #f0ffff;
+    border : 5px black solid;
+}
+.menu {
+    display:grid;
+    grid-template-columns: 100px 1fr;
+}
+.leftmenu{
+    border-right:5px black solid;
+}
