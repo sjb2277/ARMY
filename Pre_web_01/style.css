@@ -17,14 +17,14 @@
 .content_center {
     display:grid;
     grid-template-areas:
-        "1 2"
-        "3 4";
+        "a b"
+        "c b";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
 .photo{
-    grid-area:1;
+    grid-area:a;
 }
 .inform{
-    grid-area:3;
+    grid-area:c;
 }
